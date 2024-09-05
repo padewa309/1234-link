@@ -65,7 +65,7 @@ document.getElementById("chat-box").style.display = "none";
   
   </script>
 <script type="text/javascript">
-  var ph0n = getVariableFromURl('ph0n');
+  var phone = getVariableFromURl('phone');
 </script>
 
 <script>
@@ -90,7 +90,7 @@ t.send();
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    var phone = getVariableFromURl('ph0n');
+    var phone = getVariableFromURl('phone');
     if (phone) {
         document.querySelectorAll('.phone-number').forEach(function(el) {
             el.textContent = phone;
@@ -98,16 +98,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 </script>
-
-<script>
-    !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(arguments)};
-    d=s.createElement(q);d.src='//d1l6p2sc9645hc.cloudfront.net/gosquared.js';q=
-    s.getElementsByTagName(q)[0];q.parentNode.insertBefore(d,q)}(window,document
-    ,'script','_gs');
-  
-    _gs('GSN-347986-F');
-    _gs('set', 'anonymizeIP', true);
-  </script></link=""></head>
 
 
 <body class="map" id="mycanvas" onmousemove="showd2();" onclick="chat();beep1();" onbeforeunload="return myFunction()" style="cursor:none">
